@@ -5,4 +5,4 @@ server:
 spring:
   data:
     mongodb:
-      uri: mongodb+srv://techpool:techpool@techpoolcluster.exgog.mongodb.net/tododata
+      uri: mongodb+srv://techpool:techpool@techpoolcluster.exgog.mongodb.net/TodoData?retryWrites=true&w=majority
