@@ -1,8 +1,0 @@
-#mongodb://localhost:27017/ToDoData - Connection String for Local MongoDB
-#mongodb+srv://techpool:techpool@techpoolcluster.exgog.mongodb.net/tododata - connection String for atlas cloude cluster
-server:
-  port: 8082
-spring:
-  data:
-    mongodb:
-      uri: mongodb+srv://techpool:techpool@techpoolcluster.exgog.mongodb.net/TodoData?retryWrites=true&w=majority
